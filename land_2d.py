@@ -17,8 +17,7 @@ t = 0.0
 
 throttle_pid = PID(kp=120000.0, ki=20000.0, kd=8000.0)
 pos_pid = PID(kp=0.006, ki=0.0, kd=0.05)
-att_pid = PID(kp=0.5, ki=0.0, kd=1.5)
-
+att_pid = PID(kp=1.5, ki=0.0, kd=1.5)
 ts, xs, zs, thetas, deltas = [], [], [], [], []
 
 for _ in range(8000):
