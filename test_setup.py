@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-t = np.linspace(0, 10, 500)
-plt.plot(t, np.sin(t))
-plt.xlabel("t")
+x = np.linspace(0, 10, 500)
+plt.plot(x, np.sin(x))
+plt.xlabel("x")
 plt.grid(True)
 plt.show()
