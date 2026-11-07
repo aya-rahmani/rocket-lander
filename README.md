@@ -24,6 +24,7 @@ z̈ = T·cos(θ + δ) / m − g
 ```
 
 Conventions: `x` horizontal, `z` vertical up, `θ` measured from the vertical and positive when the nose tilts toward `+x`, `δ` positive when it produces positive `θ̈`. This deviates from the aerospace NED convention (z down) so that altitude stays positive. Integrated with fixed-step RK4 at `dt = 0.01 s`.
+Parameters: 30 t initial mass, 850 kN maximum thrust, 15 m moment arm, ±15° gimbal limit.
 
 ## Control architecture
 
